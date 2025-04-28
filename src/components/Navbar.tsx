@@ -38,22 +38,22 @@ export default function Navbar() {
           {/*   Desktop Menu */}
           <div className="hidden md:flex space-x-4  font-bold">
             <Link href="/" className="text-orange-400 hover:text-red-500">
-              Home
+              Inicio
             </Link>
-            <Link href="/about" className="text-orange-400 hover:text-red-500">
-              About
-            </Link>
-            <Link
-              href="/products"
-              className="text-orange-400 hover:text-red-500"
-            >
-              Products
+            <Link href="#about" className="text-orange-400 hover:text-red-500">
+              Nosotros
             </Link>
             <Link
-              href="/contact"
+              href="#menu"
               className="text-orange-400 hover:text-red-500"
             >
-              Contact
+              Menu
+            </Link>
+            <Link
+              href="#contact"
+              className="text-orange-400 hover:text-red-500"
+            >
+              Contactos
             </Link>
           </div>
           {/* mobile menu button */}

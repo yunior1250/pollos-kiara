@@ -18,10 +18,10 @@ const Contact = () => {
             <p className="text-lg mb-2">
               📞 <span className="font-bold">Teléfono:</span>{" "}
               <a
-                href="tel:+123456789"
+                href="https://wa.me/59175652697"
                 className="text-orange-500 hover:underline"
               >
-                +123 456 789
+                +591 75652697
               </a>
             </p>
             <p className="text-lg mb-2">

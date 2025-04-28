@@ -3,7 +3,7 @@ const Menu = () => {
     <section
       id="menu"
       className="py-30 bg-red-600 bg-cover bg-center "
-     /*  style={{
+      /*  style={{
         backgroundImage: "url('/images/hero.jpg')",
         //queb no se repita la imagen de fondo
         backgroundRepeat: "no-repeat", // Cambia esta ruta por la imagen de fondo
@@ -19,29 +19,51 @@ const Menu = () => {
             className="bg-cover bg-center shadow-md rounded-lg p-6 text-white"
             style={{
               backgroundImage: "url('/images/hero.jpg')",
-
-              // Imagen específica para este menú
             }}
           >
-            <h3 className="text-2xl font-bold mb-4 text-orange-400">
-              Pollos Fritos y Hamburguesas
+            <h3 className="text-3xl font-bold mb-4 text-white">
+              Pollos Broaster y Hamburguesas
             </h3>
             <ul className="space-y-4">
               <li className="flex justify-between">
-                <span>Pollo Frito (8 piezas)</span>
-                <span className="font-bold">$12.99</span>
+                <span>Pollo Broaster Entero</span>
+                <span className="font-bold">88 Bs</span>
+              </li>
+              <li className="flex justify-between">
+                <span>1/4 de Pollo</span>
+                <span className="font-bold">22 Bs</span>
+              </li>
+              <li className="flex justify-between">
+                <span>1/8 Económico</span>
+                <span className="font-bold">14 Bs</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Hamburguesa Doble</span>
+                <span className="font-bold">23 Bs</span>
               </li>
               <li className="flex justify-between">
                 <span>Hamburguesa Clásica</span>
-                <span className="font-bold">$8.99</span>
+                <span className="font-bold">16 Bs</span>
               </li>
               <li className="flex justify-between">
-                <span>Hamburguesa BBQ</span>
-                <span className="font-bold">$9.99</span>
+                <span>Hamburguesa Simple</span>
+                <span className="font-bold">13 Bs</span>
               </li>
               <li className="flex justify-between">
-                <span>Combo Familiar (Pollo + Papas + Bebidas)</span>
-                <span className="font-bold">$19.99</span>
+                <span>Milaneza Picada</span>
+                <span className="font-bold">20 Bs</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Milaneza Napolitana</span>
+                <span className="font-bold">20 Bs</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Bife con Huevo</span>
+                <span className="font-bold">15 Bs</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Chuletas Res & Cerdo</span>
+                <span className="font-bold">15 Bs</span>
               </li>
             </ul>
           </div>
@@ -53,25 +75,43 @@ const Menu = () => {
               backgroundImage: "url('/images/hero.jpg')", // Imagen específica para este menú
             }}
           >
-            <h3 className="text-2xl font-bold mb-4 text-green-400">
-              Almuerzos
-            </h3>
+            <h3 className="text-3xl font-bold mb-4 text-white">Almuerzos</h3>
+            <h2 className="text-2xl font-bold mb-4">Sopas</h2>
             <ul className="space-y-4">
               <li className="flex justify-between">
-                <span>Sopa de Maní + Feijoada</span>
-                <span className="font-bold">$10.99</span>
+                <span>Sopa de Maní & Fideo</span>
+                <span className="font-bold">$</span>
+              </li>
+            </ul>
+            <h2 className="text-2xl font-bold mb-4">Platos</h2>
+            <ul className="space-y-4">
+              <li className="flex justify-between">
+                <span>Feioada mixta res & cerdo</span>
+                <span className="font-bold">$</span>
               </li>
               <li className="flex justify-between">
-                <span>Sopa de Verduras + Ranga</span>
-                <span className="font-bold">$9.99</span>
+                <span>Pollo a la mostaza</span>
+                <span className="font-bold">$</span>
               </li>
               <li className="flex justify-between">
-                <span>Caldo de Pollo + Seco de Res</span>
-                <span className="font-bold">$11.99</span>
+                <span>Saice tarijeño</span>
+                <span className="font-bold">$</span>
               </li>
               <li className="flex justify-between">
-                <span>Sopa de Quinua + Pollo al Horno</span>
-                <span className="font-bold">$12.49</span>
+                <span>Milaneza de pollo </span>
+                <span className="font-bold">$</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Milaneza de carne </span>
+                <span className="font-bold">$</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Sillpacho c/huevo </span>
+                <span className="font-bold">$</span>
+              </li>
+              <li className="flex justify-between">
+                <span>Biffe de higado </span>
+                <span className="font-bold">$</span>
               </li>
             </ul>
           </div>
